@@ -1,0 +1,33 @@
+name: Auto Update AdBlock Filters
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # تحديث يومي عند منتصف الليل
+  workflow_dispatch: # زر لتشغيل التحديث يدوياً متى أردت
+
+permissions:
+  contents: write
+
+jobs:
+  update-filters:
+    runs-on: ubuntu-latest
+    steps:
+      - name: جلب الملفات
+        uses: actions/checkout@v3
+
+      - name: إعداد بيئة Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: تشغيل سكربت التحديث
+        run: node convert.js
+
+      - name: حفظ ورفع الفلاتر الجديدة
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git add latest-dynamic-rules.json cosmetic-rules.json
+          # سيتم الحفظ فقط في حال وجود تحديثات جديدة
+          git commit -m "تحديث الفلاتر التلقائي" || exit 0
+          git push
