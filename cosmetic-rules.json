@@ -8571,12 +8571,6 @@
     "domains": [
       "*"
     ],
-    "selector": "#adsbox"
-  },
-  {
-    "domains": [
-      "*"
-    ],
     "selector": "#adsbox-left"
   },
   {
