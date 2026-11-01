@@ -75309,6 +75309,12 @@
     "domains": [
       "*"
     ],
+    "selector": ".vf-trending-articles__flex-wrapper"
+  },
+  {
+    "domains": [
+      "*"
+    ],
     "selector": ".vf3-conversations-list__promo"
   },
   {
