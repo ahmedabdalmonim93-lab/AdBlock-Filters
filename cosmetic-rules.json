@@ -81996,6 +81996,14 @@
   },
   {
     "domains": [
+      "doumori.com",
+      "mario2-3ds.net",
+      "mario3d-wiiu.net#@"
+    ],
+    "selector": "footer-ad"
+  },
+  {
+    "domains": [
       "wsj.com#@"
     ],
     "selector": "footer-ads"
