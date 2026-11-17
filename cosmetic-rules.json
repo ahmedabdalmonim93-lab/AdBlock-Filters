@@ -79143,6 +79143,12 @@
     "domains": [
       "*"
     ],
+    "selector": "sellwild-widget"
+  },
+  {
+    "domains": [
+      "*"
+    ],
     "selector": "span[data-ez-ph-id]"
   },
   {
