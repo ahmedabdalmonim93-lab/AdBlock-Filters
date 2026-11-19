@@ -6441,12 +6441,6 @@
     "domains": [
       "*"
     ],
-    "selector": "#adbanner1"
-  },
-  {
-    "domains": [
-      "*"
-    ],
     "selector": "#adbannerbox"
   },
   {
@@ -6514,24 +6508,6 @@
       "*"
     ],
     "selector": "#adblock-small"
-  },
-  {
-    "domains": [
-      "*"
-    ],
-    "selector": "#adblock1"
-  },
-  {
-    "domains": [
-      "*"
-    ],
-    "selector": "#adblock2"
-  },
-  {
-    "domains": [
-      "*"
-    ],
-    "selector": "#adblock4"
   },
   {
     "domains": [
@@ -62175,6 +62151,12 @@
     "domains": [
       "*"
     ],
+    "selector": ".ii-snigel-billboard"
+  },
+  {
+    "domains": [
+      "*"
+    ],
     "selector": ".image-advertisement"
   },
   {
@@ -76972,6 +76954,12 @@
       "*"
     ],
     "selector": "[data-revive-zoneid]"
+  },
+  {
+    "domains": [
+      "*"
+    ],
+    "selector": "[data-shutterstock-state]"
   },
   {
     "domains": [
