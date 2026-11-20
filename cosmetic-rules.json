@@ -56523,6 +56523,18 @@
     "domains": [
       "*"
     ],
+    "selector": ".dappier-ad-chain"
+  },
+  {
+    "domains": [
+      "*"
+    ],
+    "selector": ".dappier-ads-top"
+  },
+  {
+    "domains": [
+      "*"
+    ],
     "selector": ".dart-ad"
   },
   {
